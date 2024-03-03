@@ -1,0 +1,54 @@
+.statistics {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    color: #192431;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+}
+
+.statList {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+   
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    row-gap: 10px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    width: 60px;
+}
+
+.item:first-child {
+    border-radius: 0px 0px 0px 5px;
+}
+
+.item:last-child {
+    border-radius: 0px 0px 5px 0px;
+}
+.label {
+    font-size: 15px;
+    padding: 0 auto;
+    line-height: 1.62;
+    font-weight: 200;
+}
+
+.percentage {
+    font-size: 20px;
+    padding: 0 auto;
+}
